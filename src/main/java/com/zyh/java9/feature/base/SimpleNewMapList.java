@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * trying how simple for declare a list or map<br>
  * Created by zhyhang on 17-3-6.
  */
 public class SimpleNewMapList {
