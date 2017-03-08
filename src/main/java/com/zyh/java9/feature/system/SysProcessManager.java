@@ -18,8 +18,6 @@ public class SysProcessManager {
         System.out.format("\towner %s\n", info.user().orElse(""));
         // get all process
         System.out.println("current run processes:");
-        ProcessHandle.allProcesses().forEach(p -> {
-            System.out.format("%s\t%d\t%s\n", p.info().user().orElse(""), p.getPid(), p.info().command().orElse(""));
-        });
+        ProcessHandle.allProcesses().forEach(p -> System.out.format("%s\t%d\t%s\n", p.info().user().orElse(""), p.getPid(), p.info().command().orElse("")));
     }
 }
