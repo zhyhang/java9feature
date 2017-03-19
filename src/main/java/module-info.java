@@ -3,5 +3,5 @@
  */
 module com.zyh.java9.trying {
     requires jdk.unsupported;
-//    requires java.base;
+    requires jdk.incubator.httpclient;
 }
